@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080808" />
+    <title>Porsche 911 GT3 RS — Born to Perform</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg?v=2">
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  </head>
+
+  <body>
+    <div class="loader" id="loader">
+      <div class="loader-brand">PORSCHE</div>
+      <div class="loader-line"><span></span></div>
+      <p>PREPARING THE EXPERIENCE</p>
+    </div>
+
+    <header class="navbar">
+      <a href="#home" class="logo">PORSCHE<span>.</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#machine">THE MACHINE</a>
+        <a href="#performance">PERFORMANCE</a>
+        <a href="#track">ON THE TRACK</a>
+      </nav>
+
+      <button class="sound-button" id="soundButton" type="button">
+        <span class="sound-icon">◖</span>
+        <span id="soundLabel">START ENGINE</span>
+      </button>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Toggle navigation"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="hero-image"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow">THE ART OF PERFORMANCE</p>
+          <h1 class="hero-title">
+            911<br />
+            <span>GT3 RS</span>
+          </h1>
+          <p class="hero-description">
+            Born on the track. Engineered without compromise.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#machine" class="primary-button"
+              >EXPLORE THE MACHINE <span>↗</span></a
+            >
+            <a href="#track" class="text-link"
+              >EXPERIENCE THE DRIVE <span>↓</span></a
+            >
+          </div>
+        </div>
+
+        <div class="hero-bottom">
+          <span>BUILT FOR THE EXTREME</span>
+          <span>01 / 04</span>
+          <span>SCROLL TO EXPLORE ↓</span>
+        </div>
+
+        <div class="hero-vertical">PORSCHE 911 GT3 RS</div>
+      </section>
+
+      <!-- INTRO -->
+      <section class="intro section-padding" id="machine">
+        <div class="section-index">01 — THE MACHINE</div>
+
+        <div class="intro-grid">
+          <div class="intro-heading">
+            <p class="eyebrow">NOT BUILT TO FOLLOW</p>
+            <h2>MADE FOR<br /><span>THE LIMIT.</span></h2>
+          </div>
+
+          <div class="intro-copy">
+            <p>
+              Every line has a purpose. Every component has a mission. The 911
+              GT3 RS brings motorsport engineering to the road, delivering an
+              uncompromising connection between driver and machine.
+            </p>
+            <a href="#performance" class="arrow-link"
+              >DISCOVER PERFORMANCE <span>↗</span></a
+            >
+          </div>
+        </div>
+
+        <div class="intro-image-wrap">
+          <img src="assets/images/gt-rear.png" alt="Porsche GT3 RS Rear view" />
+          <div class="image-caption">01 / ENGINEERED FOR AERODYNAMICS</div>
+        </div>
+      </section>
+
+      <!-- HORIZONTAL SCROLL SECTION -->
+      <section class="horizontal-section" id="performance">
+        <div class="horizontal-track">
+          <article class="horizontal-panel panel-two">
+            <div class="panel-background panel-bg-two"></div>
+            <div class="panel-content">
+              <p class="eyebrow">ENGINEERING</p>
+              <h2>PRECISION<br /><span>IN MOTION.</span></h2>
+              <p>
+                Track-focused engineering meets an uncompromising driving
+                experience.
+              </p>
+              <span class="panel-number">02</span>
+            </div>
+          </article>
+
+          <article class="horizontal-panel panel-three">
+            <div class="panel-background panel-bg-three"></div>
+            <div class="panel-content">
+              <p class="eyebrow">DESIGN</p>
+              <h2>FORM<br /><span>FOLLOWS SPEED.</span></h2>
+              <p>
+                A dramatic silhouette shaped by performance, not convention.
+              </p>
+              <span class="panel-number">03</span>
+            </div>
+          </article>
+
+          <article class="horizontal-panel panel-one">
+            <div class="panel-background panel-bg-one"></div>
+            <div class="panel-content">
+              <p class="eyebrow">02 — AERODYNAMICS</p>
+              <h2>OWN THE<br /><span>AIR.</span></h2>
+              <p>
+                Every surface is designed to control airflow and create
+                downforce.
+              </p>
+              <span class="panel-number">01</span>
+            </div>
+          </article>
+
+          <article class="horizontal-panel panel-four">
+            <div class="panel-background panel-bg-four"></div>
+            <div class="panel-content">
+              <p class="eyebrow">THE RESULT</p>
+              <h2>BUILT TO<br /><span>DOMINATE.</span></h2>
+              <p>
+                One machine. One purpose. An entirely different level of focus.
+              </p>
+              <span class="panel-number">04</span>
+            </div>
+          </article>
+        </div>
+        <div class="horizontal-progress"><span></span></div>
+        <div class="horizontal-hint">
+          KEEP SCROLLING TO MOVE SIDEWAYS <span>→</span>
+        </div>
+      </section>
+
+      <!-- SPECIFICATIONS -->
+      <section class="specs section-padding">
+        <div class="section-index">03 — THE NUMBERS</div>
+
+        <div class="specs-heading">
+          <p class="eyebrow">ENGINEERED TO PERFORM</p>
+          <h2>NUMBERS THAT<br /><span>SPEAK.</span></h2>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-card">
+            <span class="spec-value">525</span>
+            <span class="spec-unit">PS</span>
+            <p>MAXIMUM POWER</p>
+          </div>
+
+          <div class="spec-card">
+            <span class="spec-value">3.2</span>
+            <span class="spec-unit">SEC</span>
+            <p>0–100 KM/H*</p>
+          </div>
+
+          <div class="spec-card">
+            <span class="spec-value">296</span>
+            <span class="spec-unit">KM/H</span>
+            <p>TOP SPEED*</p>
+          </div>
+
+          <div class="spec-card">
+            <span class="spec-value">4.0</span>
+            <span class="spec-unit">L</span>
+            <p>NATURALLY ASPIRATED ENGINE</p>
+          </div>
+        </div>
+
+        <p class="spec-note">
+          *Figures shown are manufacturer-published specifications; market and
+          model-year details may vary.
+        </p>
+      </section>
+
+      <!-- VIDEO -->
+      <section class="drive-section" id="track">
+        <video
+          class="drive-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="assets/images/gt-rear.png"
+        >
+          <source src="assets/videos/gt-drive.mp4" type="video/mp4" />
+        </video>
+
+        <div class="drive-overlay"></div>
+
+        <div class="drive-content">
+          <p class="eyebrow">04 — THE TRACK EXPERIENCE</p>
+          <h2>FEEL THE<br /><span>ADRENALINE.</span></h2>
+          <p>There is a difference between driving and experiencing.</p>
+          <button class="outline-button" id="replayEngine" type="button">
+            <span>▶</span> START THE ENGINE AGAIN
+          </button>
+        </div>
+
+        <div class="drive-label">PURE PERFORMANCE. NO DISTRACTIONS.</div>
+      </section>
+
+      <!-- FINAL -->
+      <section class="final-section">
+        <div class="final-image"></div>
+        <div class="final-content">
+          <p class="eyebrow">THE 911 GT3 RS</p>
+          <h2>THE ROAD<br />IS JUST THE<br /><span>BEGINNING.</span></h2>
+          <a href="#home" class="primary-button"
+            >BACK TO THE TOP <span>↑</span></a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="#home" class="logo">PORSCHE<span>.</span></a>
+      <p>AN UNOFFICIAL CONCEPT EXPERIENCE. NOT AFFILIATED WITH PORSCHE AG.</p>
+      <a href="#home">BACK TO TOP ↑</a>
+    </footer>
+
+    <audio id="engineAudio" preload="auto">
+      <source src="assets/sounds/engine-start.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="13" fill="#090909"></rect>
+  <path d="M8 46 L29 9 H40 L19 46 Z" fill="#e10600"></path>
+  <path d="M24 46 L45 9 H53 L32 46 Z" fill="#e10600" opacity=".55"></path>
+  <text x="34" y="39" font-family="Arial, sans-serif" font-size="17" font-weight="900" text-anchor="middle" fill="#fff">GT3</text>
+  <path d="M10 52 H54" stroke="#e10600" stroke-width="3"></path>
+</svg>
